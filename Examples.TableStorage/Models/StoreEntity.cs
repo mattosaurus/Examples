@@ -14,6 +14,8 @@ namespace Examples.TableStorage.Models
 
         public string RowKey { get; set; }
 
+        public string Id { get; set; }
+
         public string Name { get; set; }
 
         public string Region { get; set; }
